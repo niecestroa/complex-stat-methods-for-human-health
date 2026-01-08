@@ -1,5 +1,5 @@
 *********************************************************************
- SEPTEMBER 3, 2019 12:21 PM
+December 13, 2019 12:21 PM
  
  This is an example of a SAS program that creates a SAS
  file from the 2018 NHIS Public Use SAMADULT.DAT ASCII file
@@ -3717,3 +3717,4 @@ class BMI_CAT(ref="1 Normal") STROKE_CAT(ref="2 No") AGE_CAT(ref="1 AGE=40-49") 
 model BMI_CAT = STROKE_CAT AGE_CAT SEX_CAT / unequalslopes=(AGE_CAT SEX_CAT);
 oddsratio AGE_CAT;
 run;
+
