@@ -297,3 +297,4 @@ $VSAE_{ij} = 5.521 + 1.368*Age_{ij} + 0.243Language=Medium_{ij} - 3.216Language=
 Within Subject Model: \
 $VSAE_{ij} = 5.521 + 1.368*Age_{ij} + 0.243Language=Medium_{ij} - 3.216Language=Medium_{ij} - 2.251Diagnosis=PDD_{ij} - 4.645Race=White_{ij} + 0.325Age_{ij}Language=Medium_{ij} + 3.824Age_{ij}Language=High_{ij} + 1.7Age_{ij}Diagnosis=PDD + 1.809Age_{ij}Language=Medium_{ij} + 8.361 + b_{age_{ij}}$
 
+
